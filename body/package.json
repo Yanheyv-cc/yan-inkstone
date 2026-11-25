@@ -1,0 +1,24 @@
+{
+  "name": "@local/yan-body",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "砚自己的小身体：记、欠、看。全是文件，零依赖。",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ]
+}

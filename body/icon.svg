@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Ink stone">
+  <defs>
+    <mask id="yan-well">
+      <rect width="36" height="36" fill="#fff"/>
+      <ellipse cx="17" cy="19" rx="6.4" ry="4.2" fill="#000"/>
+    </mask>
+  </defs>
+  <path d="M5 22.5c0-6.4 4.6-11.5 12-11.5s12 5.1 12 11.5c0 3.6-3.4 5.8-12 5.8S5 26.1 5 22.5z" fill="#5b6472" mask="url(#yan-well)"/>
+  <ellipse cx="17" cy="19" rx="6.4" ry="4.2" fill="#20252d"/>
+  <path d="M22.6 12.4c2.4-2.6 5.6-4 9.4-4.2" fill="none" stroke="#20252d" stroke-width="2.1" stroke-linecap="round"/>
+</svg>

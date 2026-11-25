@@ -1,0 +1,5 @@
+- insert:
+    - id: yan-body
+      name: '@local/yan-body'
+      config:
+        root: /root/self
